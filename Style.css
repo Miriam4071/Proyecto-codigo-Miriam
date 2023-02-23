@@ -1,0 +1,186 @@
+#cuerpo-sec {
+  margin: 0;
+  padding: 0;
+  font-family: monserrat;
+  background: linear-gradient(#5a113c, #959595);
+  height: 100vh;
+}
+
+
+
+
+#Titcent {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 20px;
+  background-color: rgb(142, 0, 50);
+  height: 80px;
+
+}
+
+#registrarAlumnos {
+  background-color: rgb(81, 20, 20);
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+#inscribir {
+  background-color: rgb(127, 124, 124);
+  padding: 40px;
+  width: max-content;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  box-sizing: content-box;
+}
+
+.Guardar01 {
+  background-color: rgb(125, 40, 129);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+}
+
+#btn-guardar-inscripcion {
+  border-radius: 10px;
+  border: none;
+}
+
+#Cambiar-btn-ins {
+  border-radius: 10px;
+  border: none;
+}
+
+#tituloreinscirbir {
+  background-color: rgb(81, 20, 20);
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+}
+
+#ReincribirAlumnos01 {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgb(127, 124, 124);
+  padding: 40px;
+  width: max-content;
+  border-width: 10px;
+  border-radius: 10px;
+
+}
+
+#Cambiar-btn {
+  border-radius: 10px;
+  border: none;
+}
+
+#btn-guardar-reins {
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+
+
+#link-alumno {
+
+  background-color: #5a113c;
+  color: white;
+  border-color: black;
+}
+
+/* Pagina principal */
+
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: rgb(137, 22, 22);
+  height: 80px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+
+  padding: 15px 20px;
+  font-size: 18px;
+
+  cursor: pointer;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  box-shadow: 10px 6px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+.Reinsscri {
+  background-color: rgb(127, 124, 124);
+  padding: 40px;
+  width: max-content;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  box-sizing: content-box;
+}
+
+
+/* Pagina prncipal */
+
+#buttons {
+  border: none;
+  border-radius: 15px;
+  font-size: 300%;
+  padding-bottom: 6%;
+  width: 400px;
+}
+
+.Logotipo-uni {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 12%;
+  left: 43%;
+  
+}
+.Logo-izquierda{
+position: absolute;
+top: 18%;
+left: 60px;
+}
+ 
+.Logo-derecha{
+  position: absolute;
+  top: 21%;
+  left: 65%;
+}
